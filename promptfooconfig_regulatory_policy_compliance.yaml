@@ -4,10 +4,10 @@ prompts:
   - " {{ input }} "
 
 providers:
-  - id: "openai:gpt-4o-mini"
+  - id: openai:gpt-4o-mini
     config:
       temperature: 0.5
-  - id: "anthropic:messages:claude-sonnet-4-5-20250929"
+  - id: anthropic:messages:claude-sonnet-4-5-20250929
     config:
       temperature: 0.5
 

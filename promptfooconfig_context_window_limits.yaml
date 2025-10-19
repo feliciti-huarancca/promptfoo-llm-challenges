@@ -4,10 +4,10 @@ prompts:
   - file://prompts/context_window_limits.txt
 
 providers:
-  - id: "openai:gpt-4o-mini"
+  - id: openai:gpt-4o-mini
     config:
       temperature: 1
-  - id: "anthropic:messages:claude-sonnet-4-5-20250929"
+  - id: anthropic:messages:claude-sonnet-4-5-20250929
     config:
       temperature: 1
 tests:
